@@ -28,6 +28,8 @@ public class Triangle{
 	Triangle myTriangle = new Triangle(2, 4, 6);
 
 	System.out.println(String.format("Triangle perimeter: %d", myTriangle.computePerimeter())); 
+
+	// Compute for Triangle area
     }
 
 }
