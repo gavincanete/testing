@@ -26,7 +26,7 @@ public class Triangle{
     }
 
     public int computeArea(){
-	return third_side/2
+	return (third_side/2)*height;
     }
     
 
