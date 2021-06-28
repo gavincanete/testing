@@ -2,8 +2,16 @@
 
 public class Test {
 
-       public static void main(String[] args){
-       	      
-	      System.out.println("Hello World");
-       }
+    private int x;
+
+    public Test(){
+	x = 20;
+    }
+
+     public static void main(String[] args){
+	 
+	 Test myTest = new Test();
+	 
+	 System.out.println("Test value: " + myTest.x);
+     }
 }
