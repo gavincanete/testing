@@ -24,7 +24,8 @@ public class Triangle{
     public int computePerimeter(){
 	return first_side + second_side + third_side;
     }
-
+    
+    // Compute for Area
     public int computeArea(){
 	return third_side/2
     }
