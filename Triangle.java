@@ -49,6 +49,10 @@ public class Triangle{
 	System.out.println(String.format("Triangle Area: %d", myTriangle.computeArea())); 
 
 	// Checking Iscoscelles Condition
+	if(myTriangle.isIscoscelles())
+	    System.out.println("It has equal side");
+	else
+	    System.out.println("It has different side");
     }
 
 }
