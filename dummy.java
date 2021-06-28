@@ -1,9 +1,17 @@
 // Hello World
 
 public class Test {
+    
+    private int x;
 
-       public static void main(String[] args){
-       	      
-	      System.out.println("Hello World");
-       }
+    public Test(){
+	x = 10;
+    }
+
+    public static void main(String[] args){
+	
+	Test myTest = new Test();
+	
+	System.out.println("Test value: " + myTest.x);
+    }
 }
