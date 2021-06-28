@@ -5,7 +5,7 @@ public class Test {
     private int x;
 
     public Test(){
-	x = 10;
+	x = 20;
     }
 
     public static void main(String[] args){
