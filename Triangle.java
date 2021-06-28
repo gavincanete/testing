@@ -44,5 +44,6 @@ public class Triangle{
 	    System.out.println("It has equal side");
 	else
 	    System.out.println("It has different side");
+    }
 
 }
