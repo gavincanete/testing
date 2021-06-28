@@ -1,7 +1,7 @@
 // Hello World
 
 public class Test {
-
+    
     private int x;
 
     public Test(){
@@ -14,4 +14,5 @@ public class Test {
 	 
 	 System.out.println("Test value: " + myTest.x);
      }
+
 }
