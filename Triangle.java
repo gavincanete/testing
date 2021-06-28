@@ -30,6 +30,14 @@ public class Triangle{
 	return (third_side/2)*height;
     }
     
+    public boolean isIscocelles(){
+	boolean flag = false;
+
+	if(first_side == second_side && second_side == third_side)
+	    flag = true;
+
+	return flag;
+    }
 
     public static void main (String[] args){
 	
