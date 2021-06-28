@@ -1,17 +1,29 @@
-// Hello World
+// Program for computing the Circle properties
+
+import java.util.Math;
 
 public class Test {
     
-    private int x;
+    private int radius;
 
-    public Test(){
-	x = 10;
+
+    public Circle(){
+	radius = 10;
     }
+
+    public double computeCircumference(){
+	return 2*Math.PI*radius;
+    }
+
+    public setRadius(int radius){
+	this.radius = radius;
+    }
+
 
     public static void main(String[] args){
 	
 	Test myTest = new Test();
 	
-	System.out.println("Test value: " + myTest.x);
+	System.out.println("Circumference: " + myTest.computeCircumference());
     }
 }
