@@ -12,6 +12,7 @@ public class Test {
 	 
 	 Test myTest = new Test();
 	 
+	 // Just a dummy value
 	 System.out.println("Test value: " + myTest.x);
      }
 
